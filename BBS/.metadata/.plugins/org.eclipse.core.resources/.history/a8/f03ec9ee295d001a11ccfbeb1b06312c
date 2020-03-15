@@ -1,8 +1,0 @@
-package service;
-
-public class MovieAlignmentService {
-
-	public MovieAlignmentService(String alignment) {
-	}
-
-}

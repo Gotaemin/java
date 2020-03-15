@@ -1,9 +1,0 @@
-package service;
-
-public class MovieAlignmentService {
-
-	public MovieAlignmentService(String alignment) {
-		// TODO Auto-generated constructor stub
-	}
-
-}

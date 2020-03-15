@@ -1,10 +1,6 @@
-INDEX VERSION 1.4+C:\Users\rhxoa\Desktop\BBS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2707856087.index
-3493945769.index
-194235875.index
-1765508595.index
-3725031322.index
-3725031322.index
-723433157.index
+INDEX VERSION 1.4+C:\java\BBS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+31469557.index
+4033009959.index
+2774255165.index
+1281565868.index
 3819707233.index
-2135547690.index

@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\rhxoa\Desktop\BBS\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\rhxoa\Desktop\BBS\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\BBS" path="/BBS" reloadable="true" source="org.eclipse.jst.jee.server:BBS">
+      <Context docBase="C:\java\BBS\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\java\BBS\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\BBS" path="/BBS" reloadable="true" source="org.eclipse.jst.jee.server:BBS">
 	<Resource auth="Container" dirverClassName="com.mysql.cj.jdbc.Driver" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory" maxActive="500" name="jdbc/movieTest" password="javaDB" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/movie_db?serverTimezone=UTC" username="javaDB"/>
 </Context></Host>
     </Engine>
