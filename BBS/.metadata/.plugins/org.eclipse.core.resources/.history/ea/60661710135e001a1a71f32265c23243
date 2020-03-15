@@ -1,0 +1,12 @@
+package service;
+
+public class JoinService {
+
+	public void joinUpdate(String userID, String userPassword, String userName, String userGender, String userEmail) {
+
+		
+		
+		
+	}
+
+}

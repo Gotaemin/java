@@ -1,0 +1,15 @@
+package service;
+
+import java.sql.Connection;
+import static db.JdbcUtil.*;
+import vo.Bbs;
+
+public class BbsViewService {
+
+	public Bbs getBbs(int bbsID) {
+		Connection conn = 
+		
+		return null;
+	}
+
+}

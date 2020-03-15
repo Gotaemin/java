@@ -1,0 +1,18 @@
+package action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class BbsViewAction implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		int bbsID = Integer.parseInt(request.getAttribute("bbsID"));
+		
+		
+		
+		ActionForward forward = new ActionForward("view.jsp", false);
+		return forward;
+	}
+
+}

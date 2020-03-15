@@ -1,0 +1,18 @@
+package service;
+
+import java.sql.Connection;
+
+import dao.UserDAO;
+
+import static db.JdbcUtil.*;
+public class LoginService {
+
+	public void loginCheck() {
+		Connection conn = getConnection();
+		UserDAO userDAO = new UserDAO();
+		
+		userDAO.login(userID, userPassword);
+		
+	}
+
+}

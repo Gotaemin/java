@@ -1,0 +1,27 @@
+package action;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import service.MovieAlignmentService;
+import vo.Movie;
+
+public class MovieAlignmentAction implements Action {
+
+	private String alignment;
+	
+	public MovieAlignmentAction(String alignment) {
+		this.alignment = alignment;
+	}
+	
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		ArrayList<Movie> arraylist = new ArrayList<Movie>();
+		MovieAlignmentService movieAlignment = new MovieAlignmentService(alignment);
+		
+		return null;
+	}
+
+}

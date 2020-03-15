@@ -1,0 +1,14 @@
+package service;
+
+import java.util.ArrayList;
+
+import vo.Bbs;
+
+public class BbsListService {
+	public ArrayList<Bbs> bbsListSelect() {
+		
+		
+		return null;
+	}
+
+}

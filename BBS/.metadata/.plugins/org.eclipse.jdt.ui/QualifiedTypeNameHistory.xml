@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="action.Action"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="action.MovieListAction"/>
+<fullyQualifiedTypeName name="service.MovieListService"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="action.MovieSearchAction"/>
+<fullyQualifiedTypeName name="service.MovieSearchService"/>
+<fullyQualifiedTypeName name="service.MovieAlignmentService"/>
+<fullyQualifiedTypeName name="action.MovieAlignmentAction"/>
+<fullyQualifiedTypeName name="dao.MovieDAO"/>
+<fullyQualifiedTypeName name="service.LoginService"/>
+<fullyQualifiedTypeName name="action.JoinAction"/>
+<fullyQualifiedTypeName name="dao.UserDAO"/>
+<fullyQualifiedTypeName name="service.JoinService"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="action.WriteAction"/>
+<fullyQualifiedTypeName name="service.WriteService"/>
+<fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Use"/>
+<fullyQualifiedTypeName name="vo.User"/>
+<fullyQualifiedTypeName name="action.LoginAction"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="service.BbsListService"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="action.BbsListAction"/>
+<fullyQualifiedTypeName name="action.ActionForward"/>
+<fullyQualifiedTypeName name="action.BbsViewAction"/>
+<fullyQualifiedTypeName name="controller.BbsViewService"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="db.JdbcUtil"/>
+<fullyQualifiedTypeName name="dao.BbsDAO"/>
+<fullyQualifiedTypeName name="vo.Bbs"/>
+<fullyQualifiedTypeName name="vo.Movie"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package controller;
+
+import vo.Bbs;
+
+public class BbsViewService {
+
+	public Bbs getBbs(int bbsID) {
+
+		
+		return null;
+	}
+
+}

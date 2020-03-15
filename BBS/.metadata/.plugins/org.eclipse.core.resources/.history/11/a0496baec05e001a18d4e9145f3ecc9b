@@ -1,0 +1,20 @@
+package action;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import vo.Bbs;
+
+public class BbsListAction implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		ArrayList<Bbs> bbsList = null;
+		
+		
+		return null;
+	}
+
+}

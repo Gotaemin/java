@@ -1,0 +1,9 @@
+package dao;
+
+public class UserDAO {
+	Connection conn = null;
+	
+	public void setConnection(Connection conn) {
+		this.conn = conn;
+	}
+}

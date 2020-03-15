@@ -1,0 +1,16 @@
+package service;
+
+import java.util.ArrayList;
+
+import vo.Movie;
+
+public class MovieAlignmentService {
+
+	public ArrayList<Movie> movielignment(String alignment) {
+		
+		
+		return null;
+	}
+
+
+}
