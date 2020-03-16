@@ -100,7 +100,7 @@ header {
 		<div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a href="movieList.movie">무비 차트</a></li>
-				<li><a href="#">예  매</a></li>
+				<li><a href="movieReserve.jsp">예  매</a></li>
 				<li><a href="#">극  장</a></li>
 				<li><a href="bbsList.bbs?pageNumber=1">게시판</a></li>
 			</ul>
@@ -192,7 +192,7 @@ header {
 		<table border="1" style="text-align:center; clear:right; width:80%; height:100px; margin:auto; margin-top: 20px; margin-bottom: 50px;">
 			<tr>
 				<td><a href="movieList.movie">무비 차트</a></td>
-				<td><a href="#">예매</a></td>
+				<td><a href="movieReserve.jsp">예매</a></td>
 				<td><a href="#">극장</a></td>
 				<td><a href="#">이벤트</a></td>
 			</tr>
