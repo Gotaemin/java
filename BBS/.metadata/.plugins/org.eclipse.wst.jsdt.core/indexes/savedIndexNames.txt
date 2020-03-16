@@ -6,4 +6,3 @@ INDEX VERSION 1.4+C:\java\BBS\.metadata\.plugins\org.eclipse.wst.jsdt.core\index
 1281565868.index
 3819707233.index
 723433157.index
-723433157.index

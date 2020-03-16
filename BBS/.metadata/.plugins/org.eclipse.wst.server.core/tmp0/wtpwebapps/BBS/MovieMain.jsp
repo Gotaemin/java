@@ -189,7 +189,7 @@ header {
 	</div>
 
 	<div>
-		<table border="1" style="text-align:center; clear:right; width:80%; height:100px; margin:auto; margin-top: 20px; margin-bottom: 50px;">
+		<table border="1" style="text-align:center; background-color:brown; clear:right; width:90%; height:80px; margin:auto; margin-top: 20px; margin-bottom: 50px;">
 			<tr>
 				<td><a href="movieList.movie">무비 차트</a></td>
 				<td><a href="movieReserve.jsp">예매</a></td>

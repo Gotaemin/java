@@ -17,10 +17,13 @@
 
 #a th, #a td {
 	border: 1px solid gray;
+	height:50px;
 }
 tr{
 	text-align: center;
 }
+
+
 
 #movie_movieList {
 	max-height: 500px;
@@ -128,37 +131,35 @@ tr{
 			
 				<!-- 영화제목 리스트 출력 -->
 				<div align=center style="display: table-cell; background: white;">
-					<div class="test_content" style="width: 380px; height: 40px; background: gray; margin-bottom: 20px;">영화 목록</div>
+					<div class="test_content" style="padding:auto; width: 380px; height: 40px; background: gray; margin-bottom: 20px;">영화 목록</div>
 					<div id="movie_movieList">
-						<table>
+						<table style="width: 350px;">
 							<colgroup>
-								<col width="10%">
-								<col width="45%">
-								<col width="45%">
+								<col width="20%">
+								<col width="20%">
+								<col width="60">
 							</colgroup>
 							<thead>
 								<tr>
-									<td>no</td>
-									<td>id</td>
-									<td>name</td>
+									<td>예매율순</td>
+									<td>가나다순</td>
+									<td></td>
 								</tr>
 							</thead>
 						</table>
 						<div>
-							<table>
+							<table style="width: 350px;">
 								<colgroup>
-									<col width="10%">
-									<col width="45%">
-									<col width="45%">
+									<col width="20%">
+									<col width="80%">
 								</colgroup>
 								<tbody id="a">
 									<%
 										for (int i = 0; i < 20; i++) {
 									%>
 									<tr>
-										<td><input class="btn btn-primary" type="button" value="1"></td>
-										<td>do</td>
-										<td>도봉순</td>
+										<td>ALL</td>
+										<td><a href ="#">영화제목</a></td>
 									</tr>
 
 									<%
@@ -173,37 +174,24 @@ tr{
 				<!-- 극장 리스트 출력 -->
 				
 				<div align=center style="display: table-cell; background: white;">
-					<div class="test_content" style="width: 350px; height: 40px; background: gray; margin-bottom: 20px;"">극장</div>
+					<div class="test_content" style="width: 350px; height: 40px; background: gray; margin-bottom: 20px;">극장</div>
 					<div id="movie_Threater">
-						<table>
-							<colgroup>
-								<col width="10%">
-								<col width="45%">
-								<col width="45%">
-							</colgroup>
-							<thead>
-								<tr>
-									<td>no</td>
-									<td>id</td>
-									<td>name</td>
-								</tr>
-							</thead>
-						</table>
+
+						<br>
 						<div>
-							<table>
+							<table style="width: 300px;">
 								<colgroup>
-									<col width="10%">
-									<col width="45%">
-									<col width="45%">
+									<col width="50%">
+									<col width="40%">
+								
 								</colgroup>
 								<tbody id="a">
 									<%
 										for (int i = 0; i < 10; i++) {
 									%>
-									<tr style="text-align: center;">
-										<td><input class="btn btn-primary" type="button" value="1"></td>
-										<td>do</td>
-										<td>도봉순</td>
+									<tr>
+										<td><a href="#">지역</a></td>
+										<td><a href="#">지점</a></td>
 									</tr>
 
 									<%
@@ -221,37 +209,22 @@ tr{
 
 				<!-- 영화 상영 날짜 출력 -->
 				<div align=center style="display: table-cell; background: white;">
-					<div class="test_content" style="width: 180px; height: 40px; background: gray; margin-bottom: 20px;"">날짜</div>
+					<div class="test_content" style="width: 180px; height: 40px; background: gray; margin-bottom: 20px;">날짜</div>
+					<br>
 					<div id="movie_Date">
-						<table>
-							<colgroup>
-								<col width="10%">
-								<col width="45%">
-								<col width="45%">
-							</colgroup>
-							<thead>
-								<tr>
-									<td>no</td>
-									<td>id</td>
-									<td>name</td>
-								</tr>
-							</thead>
-						</table>
 						<div>
-							<table>
+							<table style="width: 150px;">
 								<colgroup>
-									<col width="10%">
-									<col width="45%">
-									<col width="45%">
+									<col width="50%">
+									<col width="50%">
 								</colgroup>
 								<tbody id="a">
 									<%
 										for (int i = 0; i < 10; i++) {
 									%>
 									<tr style="text-align: center;">
-										<td><input class="btn btn-primary" type="button" value="1"></td>
-										<td>do</td>
-										<td>도봉순</td>
+										<td><a href="#">요일</a></td>
+										<td><a href="#">일</a></td>
 									</tr>
 
 									<%
@@ -266,37 +239,37 @@ tr{
 
 				<!-- 영화 상영 가능 시간 출력 -->
 				<div align=center style="display: table-cell; background: white;">
-					<div class="test_content" style="width: 380px; height: 40px; background: gray; margin-bottom: 20px;"">시간</div>
+					<div class="test_content" style="width: 380px; height: 40px; background: gray; margin-bottom: 20px;">시간</div>
 					<div id="movie_Time">
-						<table>
+						<table style="width: 350px;">
 							<colgroup>
-								<col width="10%">
-								<col width="45%">
-								<col width="45%">
+								<col width="15%">
+								<col width="15%">
+								<col width="70%">
 							</colgroup>
 							<thead>
 								<tr>
-									<td>no</td>
-									<td>id</td>
-									<td>name</td>
+									<td>조조</td>
+									<td>심야</td>
+									<td></td>
 								</tr>
 							</thead>
 						</table>
 						<div>
-							<table>
+							<table style="width: 350px;">
 								<colgroup>
-									<col width="10%">
-									<col width="45%">
-									<col width="45%">
+									<col width="30%">
+									<col width="30%">
+									<col width="30%">
 								</colgroup>
 								<tbody id="a">
 									<%
 										for (int i = 0; i < 10; i++) {
 									%>
-									<tr style="text-align: center;">
-										<td><input class="btn btn-primary" type="button" value="1"></td>
-										<td>do</td>
-										<td>도봉순</td>
+									<tr>
+										<td><input class="btn btn-primary btn-pull" type="button" value="11:20"></td>
+										<td><input class="btn btn-primary btn-pull" type="button" value="10:00"></td>
+										<td><input class="btn btn-primary btn-pull" type="button" value="14:50"></td>
 									</tr>
 
 									<%
