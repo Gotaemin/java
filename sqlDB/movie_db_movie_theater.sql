@@ -28,7 +28,7 @@ CREATE TABLE `movie_theater` (
   `city` varchar(50) DEFAULT NULL,
   `local` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`theaterNum`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `movie_theater` (
 
 LOCK TABLES `movie_theater` WRITE;
 /*!40000 ALTER TABLE `movie_theater` DISABLE KEYS */;
-INSERT INTO `movie_theater` VALUES (1,1,'서울','강남'),(3,1,'서울','홍대입구'),(4,1,'서울','목동'),(5,1,'서울','불광'),(6,1,'서울','건대입구'),(7,1,'서울','신촌'),(8,2,'서울','강남'),(9,2,'서울','홍대입구'),(10,2,'서울','목동'),(11,2,'서울','불광'),(12,3,'서울','건대입구'),(13,3,'서울','신촌'),(14,4,'서울','강남'),(15,4,'서울','홍대입구'),(16,4,'서울','목동'),(17,4,'서울','불광'),(18,4,'서울','건대입구'),(19,4,'서울','신촌');
+INSERT INTO `movie_theater` VALUES (1,1,'서울','강남'),(2,1,'서울','홍대'),(3,1,'서울','건대'),(4,1,'서울','불광'),(5,1,'서울','영등포'),(6,2,'서울','강남'),(7,2,'서울','홍대'),(8,2,'서울','건대'),(9,2,'서울','불광'),(10,3,'서울','영등포'),(11,3,'서울','불광'),(12,3,'서울','건대'),(13,3,'서울','홍대'),(14,4,'서울','영등포'),(16,4,'서울','불광'),(17,4,'서울','건대'),(18,4,'서울','홍대'),(19,4,'서울','강남'),(20,1,'경기','강남'),(21,1,'경기','홍대'),(22,1,'경기','건대'),(23,2,'경기','건대'),(24,2,'경기','홍대'),(25,2,'경기','강남'),(26,3,'경기','건대'),(27,3,'경기','홍대'),(28,3,'경기','강남'),(29,4,'경기','강남'),(30,4,'경기','홍대');
 /*!40000 ALTER TABLE `movie_theater` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-03-16 17:25:29
+-- Dump completed on 2020-03-17 17:26:35
