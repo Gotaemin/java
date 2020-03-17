@@ -1,0 +1,23 @@
+package action;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class SelectCityAction implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		
+		String city = request.getParameter("city");
+		
+		ArrayList<String> theaterList = new ArrayList<String>();
+		
+		
+		ActionForward forward = new ActionForward("movieReserve.jsp",false);
+		
+		return forward;
+	}
+
+}

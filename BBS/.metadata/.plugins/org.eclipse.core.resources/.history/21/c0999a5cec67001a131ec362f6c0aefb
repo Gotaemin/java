@@ -1,0 +1,10 @@
+package service;
+
+public class MovieReserveService {
+
+	public void getData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

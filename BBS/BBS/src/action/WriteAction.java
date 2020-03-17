@@ -3,10 +3,7 @@ package action;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.mysql.cj.Session;
-
 import service.WriteService;
-import vo.User;
 
 public class WriteAction implements Action {
 

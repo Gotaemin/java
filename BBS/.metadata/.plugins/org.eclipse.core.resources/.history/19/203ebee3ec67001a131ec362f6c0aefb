@@ -1,0 +1,17 @@
+package service;
+
+import java.util.ArrayList;
+import static db.JdbcUtil.*;
+import vo.Movie;
+
+public class MovieReserveService {
+
+	public ArrayList<Movie> getTitle() {
+		Co
+		
+		
+		ArrayList<Movie> getTitle = 
+		
+	}
+
+}

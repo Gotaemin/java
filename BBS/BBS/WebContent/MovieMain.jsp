@@ -100,7 +100,7 @@ header {
 		<div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a href="movieList.movie">무비 차트</a></li>
-				<li><a href="movieReserve.jsp">예  매</a></li>
+				<li><a href="movieReserve.movie">예  매</a></li>
 				<li><a href="#">극  장</a></li>
 				<li><a href="bbsList.bbs?pageNumber=1">게시판</a></li>
 			</ul>

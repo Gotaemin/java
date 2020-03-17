@@ -1,0 +1,37 @@
+package service;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import dao.MovieDAO;
+
+import static db.JdbcUtil.*;
+import vo.Movie;
+import vo.Theater;
+
+public class MovieReserveService {
+	
+	public MovieReserveService() {
+		Connection conn = getConnection();
+	}
+
+	public ArrayList<Movie> getTitle() {
+		
+		
+		MovieDAO movieDAO = new MovieDAO();
+		movieDAO.setConnection(conn);
+		
+		ArrayList<Movie> getTitle = movieDAO.getTitle();  
+		
+		close(conn);
+		
+		return getTitle;
+	}
+
+	public ArrayList<Theater> getLocal() {
+		
+		
+		return null;
+	}
+
+}

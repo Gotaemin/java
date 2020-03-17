@@ -2,6 +2,9 @@
 	pageEncoding="UTF-8"%>
 
 <%@ page import="java.io.PrintWriter"%>
+<%@ page import="java.util.ArrayList"%>
+<%@ page import="vo.Movie"%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
@@ -13,7 +16,10 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 
 <style type="text/css">
-
+a, a:hover{
+		color: #000000;
+		text-decoration:none;
+	}
 
 #a th, #a td {
 	border: 1px solid gray;
@@ -23,6 +29,10 @@ tr{
 	text-align: center;
 }
 
+
+.local{
+	background-color: gray;
+}
 
 
 #movie_movieList {
@@ -126,12 +136,12 @@ tr{
 		<div class="navi">네비 부분</div>
 
 <!-- 		style="width:380px" -->
-		<div class="test_body" style="display: table;  word-break: break-all; width: 1500px; height: 500px; background: skyblue">
+		<div  style="display: table;  word-break: break-all; width: 1500px; height: 500px; background: skyblue">
 			<div style="display: table-row;">
 			
 				<!-- 영화제목 리스트 출력 -->
 				<div align=center style="display: table-cell; background: white;">
-					<div class="test_content" style="padding:auto; width: 380px; height: 40px; background: gray; margin-bottom: 20px;">영화 목록</div>
+					<div  style="padding:auto; width: 380px; height: 40px; background: gray; margin-bottom: 20px;">영화 목록</div>
 					<div id="movie_movieList">
 						<table style="width: 350px;">
 							<colgroup>
@@ -154,17 +164,27 @@ tr{
 									<col width="80%">
 								</colgroup>
 								<tbody id="a">
-									<%
-										for (int i = 0; i < 20; i++) {
-									%>
-									<tr>
-										<td>ALL</td>
-										<td><a href ="#">영화제목</a></td>
-									</tr>
-
-									<%
-										}
-									%>
+									<c:forEach var="movie" items="${movieTitle}" varStatus="status">
+										<tr>
+											<td>
+												<c:choose>
+												<c:when test="${movie.ageLimit == 0}">
+													<img src="image/all.png" style="width: 45px;height: 45px;"/> 
+												</c:when>
+												<c:when test="${movie.ageLimit == 12}">
+													<img src="image/12.png" style="width: 45px;height: 45px;"/>
+												</c:when>
+												<c:when test="${movie.ageLimit == 15}">
+													<img src="image/15.png" style="width: 45px;height: 45px;"/>
+												</c:when>
+												<c:when test="${movie.ageLimit == 19}">
+													<img src="image/19.png" style="width: 45px;height: 45px;"/>
+												</c:when>
+												</c:choose>
+											</td>
+											<td><a href ="#">${movie.title}</a></td>
+										</tr>
+									</c:forEach>
 								</tbody>
 							</table>
 						</div>
@@ -178,25 +198,35 @@ tr{
 					<div id="movie_Threater">
 
 						<br>
-						<div>
-							<table style="width: 300px;">
-								<colgroup>
-									<col width="50%">
-									<col width="40%">
-								
-								</colgroup>
-								<tbody id="a">
-									<%
-										for (int i = 0; i < 10; i++) {
-									%>
+						<div style="display: table-cell;">
+							<table style="width: 150px;">
+								<tbody id="a" class="local">
 									<tr>
-										<td><a href="#">지역</a></td>
-										<td><a href="#">지점</a></td>
+										<td><a href="selectCity.movie?city=seoul">서울</a></td>
 									</tr>
-
-									<%
-										}
-									%>
+									<tr>
+										<td><a href="selectCity.movie?city=gyoung">경기</a></td>
+									</tr>
+									<tr>
+										<td><a href="selectCity.movie?city=incheon">인천</a></td>
+									</tr>
+									<tr>
+										<td><a href="selectCity.movie?city=daegu">대구</a></td>
+									</tr>
+									<tr>
+										<td><a href="selectCity.movie?city=busan">부산</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div style="display: table-cell;">
+							<table style="width: 150px;">
+								<tbody id="a">
+									<c:forEach var="theater" items="${theaterLocal}" varStatus="status">
+										<tr>
+											<td><a href ="#">${theater.local}</a></td>
+										</tr>
+									</c:forEach>
 								</tbody>
 							</table>
 						</div>
@@ -285,13 +315,8 @@ tr{
 <!-- 			body -->
 		</div>
 
-
-
-
-
-
-
 	</div>
+	
 
 
 

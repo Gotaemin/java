@@ -1,0 +1,18 @@
+package service;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import static db.JdbcUtil.*;
+import vo.Movie;
+
+public class MovieReserveService {
+
+	public ArrayList<Movie> getTitle() {
+		Connection conn = getConnection();
+		
+		
+		ArrayList<Movie> getTitle = 
+		
+	}
+
+}

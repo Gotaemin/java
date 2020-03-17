@@ -15,6 +15,7 @@ import action.MovieAlignmentAction;
 import action.MovieListAction;
 import action.MovieReserveAction;
 import action.MovieSearchAction;
+import action.SelectCityAction;
 
 @WebServlet("*.movie")
 public class MovieController extends HttpServlet {
@@ -76,6 +77,14 @@ public class MovieController extends HttpServlet {
 			}
 		} else if (command.equals("/movieReserve.movie")) {
 			action = new MovieReserveAction();
+
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else if (command.equals("/selectCity.movie")) {
+			action = new SelectCityAction();
 
 			try {
 				forward = action.execute(request, response);

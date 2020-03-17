@@ -1,0 +1,13 @@
+package service;
+
+import java.util.ArrayList;
+import static db.JdbcUtil.*;
+public class SelectCityService {
+
+	public ArrayList<String> getLocal(String city) {
+		Conncetion conn = get
+		
+		return null;
+	}
+
+}

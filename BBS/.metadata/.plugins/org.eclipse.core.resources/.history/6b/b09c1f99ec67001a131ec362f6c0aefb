@@ -1,0 +1,15 @@
+package service;
+
+public class MovieReserveService {
+
+	public void getDate() {
+
+		
+	}
+
+	public void getTitle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

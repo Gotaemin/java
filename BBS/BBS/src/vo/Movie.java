@@ -5,6 +5,7 @@ public class Movie {
 	private int visitors;
 	private String actor;
 	private String image;
+	private int ageLimit;
 	
 	public String getImage() {
 		return image;
@@ -12,6 +13,14 @@ public class Movie {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+
+	public int getAgeLimit() {
+		return ageLimit;
+	}
+
+	public void setAgeLimit(int ageLimit) {
+		this.ageLimit = ageLimit;
 	}
 
 	public Movie() {
