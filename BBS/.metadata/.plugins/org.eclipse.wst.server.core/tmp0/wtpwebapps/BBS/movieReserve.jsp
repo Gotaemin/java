@@ -63,6 +63,8 @@ tr{
 <title>Insert title here</title>
 </head>
 <body>
+	
+
 	<%
 		String userID = null;
 		if (session.getAttribute("userID") != null) {
@@ -196,29 +198,34 @@ tr{
 				<div align=center style="display: table-cell; background: white;">
 					<div class="test_content" style="width: 350px; height: 40px; background: gray; margin-bottom: 20px;">극장</div>
 					<div id="movie_Threater">
+						<%
+							String city = "seoul";
+						%>
 
 						<br>
 						<div style="display: table-cell;">
-							<table style="width: 150px;">
+							<table id="example-table-1" style="width: 150px;">
 								<tbody id="a" class="local">
 									<tr>
-										<td><a href="selectCity.movie?city=seoul">서울</a></td>
+										<td>서울</td>
 									</tr>
 									<tr>
-										<td><a href="selectCity.movie?city=gyoung">경기</a></td>
+										<td>경기</td>
 									</tr>
 									<tr>
-										<td><a href="selectCity.movie?city=incheon">인천</a></td>
+										<td>인천</td>
 									</tr>
 									<tr>
-										<td><a href="selectCity.movie?city=daegu">대구</a></td>
+										<td>대구</td>
 									</tr>
 									<tr>
-										<td><a href="selectCity.movie?city=busan">부산</a></td>
+										<td>부산</td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
+						
+						
 						<div style="display: table-cell;">
 							<table style="width: 150px;">
 								<tbody id="a">
@@ -227,6 +234,8 @@ tr{
 											<td><a href ="#">${theater.local}</a></td>
 										</tr>
 									</c:forEach>
+
+
 								</tbody>
 							</table>
 						</div>
@@ -314,11 +323,17 @@ tr{
 
 <!-- 			body -->
 		</div>
+		<input type="text" id="ex1_Result2" value="${city}">
 
 	</div>
 	
+	
+	
+	<input type="text" id = "city_result">
+	<div id = "city_result2"></div>
+	<input type="button" id="hw" value="Hello world" />
 
-
+    <script type="text/javascript" src="js/table.js"></script>
 
 </body>
 </html>
