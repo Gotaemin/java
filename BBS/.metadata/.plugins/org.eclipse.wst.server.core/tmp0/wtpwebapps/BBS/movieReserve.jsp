@@ -198,13 +198,10 @@ tr{
 				<div align=center style="display: table-cell; background: white;">
 					<div class="test_content" style="width: 350px; height: 40px; background: gray; margin-bottom: 20px;">극장</div>
 					<div id="movie_Threater">
-						<%
-							String city = "seoul";
-						%>
 
 						<br>
 						<div style="display: table-cell;">
-							<table id="example-table-1" style="width: 150px;">
+							<table class="city_table" id="example-table-1" style="width: 150px;">
 								<tbody id="a" class="local">
 									<tr>
 										<td>서울</td>
@@ -227,8 +224,10 @@ tr{
 						
 						
 						<div style="display: table-cell;">
+								<div id = "city_result2"></div>
 							<table style="width: 150px;">
 								<tbody id="a">
+								
 									<c:forEach var="theater" items="${theaterLocal}" varStatus="status">
 										<tr>
 											<td><a href ="#">${theater.local}</a></td>
@@ -321,18 +320,19 @@ tr{
 				</div>
 			</div>
 
-<!-- 			body -->
+
 		</div>
-		<input type="text" id="ex1_Result2" value="${city}">
 
 	</div>
 	
-	
-	
-	<input type="text" id = "city_result">
-	<div id = "city_result2"></div>
-	<input type="button" id="hw" value="Hello world" />
 
+	
+
+	
+	
+	
+
+<!-- 	<input type="button" id="hw" value="Hello world" /> -->
     <script type="text/javascript" src="js/table.js"></script>
 
 </body>

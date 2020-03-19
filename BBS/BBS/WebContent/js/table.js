@@ -1,9 +1,9 @@
-var hw = document.getElementById('hw');
-
-hw.addEventListener('click', function(){
-    alert(hw);
-   
-})
+//var hw = document.getElementById('hw');
+//
+//hw.addEventListener('click', function(){
+//    alert(hw);
+//   
+//})
 
 
 $("#example-table-1 tr").click(function(){ 	
@@ -45,9 +45,6 @@ $("#example-table-1 tr").click(function(){
 				
 			}
 			
-			
-		
-			$("#city_result").html(city);		
-			$("#city_result").html(tdArr);
+//			$("#city_result").html(city);		
 			$("#city_result2").html(tdArr);	
 		});

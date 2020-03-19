@@ -1,1 +1,5 @@
 1584493409524	Copy file
+1584578171490	Move 'testFile.jsp' to 'test'
+1584582623469	Move 'NewFile.jsp' to 'WEB-INF'
+1584582670072	Delete element
+1584582835009	Move 'NewFile.jsp' to 'test'
