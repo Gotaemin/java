@@ -29,16 +29,13 @@ $("#example-table-1 tr").click(function(){
 			
 			
 			if(str == '서울'){
-				tdArr.push('홍대');
-				tdArr.push('건대');
-				tdArr.push('강남');
-				tdArr.push('목동');
+				tdArr.push('홍대,건대,목동,강남');
+
 			}else if(str == '경기'){
-				tdArr.push('노원');
-				tdArr.push('구리');
-				tdArr.push('덕소');
+				tdArr.push('노원,구리,덕소');
+
 			}else if(str == '인천'){
-				
+				tdArr.push('인천1,인천2,덕소');
 			}else if(str == '대구'){
 				
 			}else if(str == '부산'){

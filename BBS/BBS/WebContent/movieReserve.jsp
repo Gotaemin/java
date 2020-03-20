@@ -75,6 +75,9 @@ tr{
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 
+	<c:set var="cityValues">
+		<div id = "city_result2"></div>
+	</c:set>
 
 	<nav class="navbr navbar-default" style="margin-bottom: 20px;">
 
@@ -224,17 +227,21 @@ tr{
 						
 						
 						<div style="display: table-cell;">
-								<div id = "city_result2"></div>
+							
+							<c:forEach var="abc" items="${cityValues}">
+								도시 : ${abc}
+							</c:forEach>
+							
+							 
+							
 							<table style="width: 150px;">
 								<tbody id="a">
 								
-									<c:forEach var="theater" items="${theaterLocal}" varStatus="status">
-										<tr>
-											<td><a href ="#">${theater.local}</a></td>
-										</tr>
-									</c:forEach>
-
-
+<%-- 									<c:forEach var="theater" items="${theaterLocal}" varStatus="status"> --%>
+<!-- 										<tr> -->
+<%-- 											<td><a href ="#">${theater.local}</a></td> --%>
+<!-- 										</tr> -->
+<%-- 									</c:forEach> --%>
 								</tbody>
 							</table>
 						</div>
@@ -327,7 +334,7 @@ tr{
 	
 
 	
-
+							
 	
 	
 	
