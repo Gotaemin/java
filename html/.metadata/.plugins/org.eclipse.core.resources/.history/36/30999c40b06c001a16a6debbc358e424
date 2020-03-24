@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+*{
+	padding:0px;
+	margin: 0px;	
+}
+
+.d {
+	width: 100px;
+	height: 100px;
+}
+
+.d1 {
+	background-color: red;
+	display: inline-block;
+	margin-right: 100px; 
+}
+
+.d2 {
+	background-color: blue;
+	display: inline-block;
+}
+
+.d3 {
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+	<div class="d d1">inline</div>
+	<div class="d d2">123123123	</div>
+	<div class="d d3"></div>
+</body>
+</html>

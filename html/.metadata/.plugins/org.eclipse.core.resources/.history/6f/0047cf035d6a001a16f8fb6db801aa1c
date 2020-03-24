@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+body{
+	height: 500px;
+}
+
+#d1{
+	width: 50%;
+	height: 100%;
+/* 	background-color: blue; */
+	color: white;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 5px;
+	
+	border-right-color: green;
+	border-right-style: dashed;
+	border-right-width: 5px;
+	
+	border-bottom-color: #8c8cff;
+	border-bottom-style: inset;
+	border-bottom-width: 5px;
+	
+	border-left-color: blue;
+	border-left-style: double;
+	border-left-width: 5px;
+}
+
+#d2{
+	width: 50%;
+	height: 50%;
+/* 	background-color: #e065cb; */
+
+	border-top: red 10px solid;
+	border-right: orange 10px solid;
+	border-bottom: yellow 10px solid;
+	border-left: purple 10px solid;
+}
+
+#d3{
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+
+}
+
+</style>
+</head>
+<body>
+	<div id="d1">
+		<div id="d2">
+		</div>	
+	</div>
+	<div id="d3"></div>
+</body>
+</html>

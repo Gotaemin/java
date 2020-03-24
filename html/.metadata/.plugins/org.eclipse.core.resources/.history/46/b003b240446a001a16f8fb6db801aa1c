@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>사용자가 선택하는 태그</h1>
+	<h3>여러개 중에서 하나만 선택</h3>
+	
+	<form action="">
+		<h3>Radio</h3>
+		<p>
+			Female : <input type="radio" name="gender" value="Female"> 
+			<br>Male : <input type="radio" name="gender" value="Male">
+		</p>
+
+		<p>
+			KT : <input type="radio" name="brand" value="kt"> 
+			/ SKT : <input type="radio" name="brand" value="skt"> 
+			/ LG : <input type="radio" name="brand" value="lg">
+		</p>
+
+		<h3>checkbox</h3>
+		<p>
+			햄버거 : <input type="checkbox" name="food" value="h">
+			햄버거 : <input type="checkbox" name="food" value="h">
+			햄버거 : <input type="checkbox" name="food" value="h">
+			햄버거 : <input type="checkbox" name="food" value="h">
+		</p>
+		
+		<h3>select</h3>
+		<p>
+			<select>
+				<option selected="selected"></option>			
+			</select>
+		</p>
+	</form>
+</body>
+
+</html>
+
+
+
+
+

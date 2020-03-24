@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.d1{
+	width: 50%;
+	height: 200px;
+	border: 3px solid red;
+	padding-top: 50px; 
+	padding-left: 100px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	box-sizing: border-box;
+	min-width: 500px;
+}
+
+.d2{
+	width: 300px;
+	height: 100px;
+	background-color: red;
+	
+}
+.s1{
+/* 	padding: 100px; */
+	background-color: yellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="d1">
+	Padding
+	<div class="d2"></div>
+</div>
+
+<span class="s1">span</span>
+
+
+</body>
+</html>

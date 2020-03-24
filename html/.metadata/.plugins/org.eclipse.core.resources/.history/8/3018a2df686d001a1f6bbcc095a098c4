@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.s3{
+	font-size: 30px;
+}
+
+.s4{
+	font-size: 30px;
+	font-family: "Courier New", courier, monospace, "Ink Free";
+}
+
+</style>
+
+</head>
+<body>
+	<p>default font size 16px</p>
+	<p class="s3"> font size 30px</p>
+	<p class="s4"> font family Courier</p>
+</body>
+</html>

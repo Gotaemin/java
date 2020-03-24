@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.d {
+	width: 100px;
+	height: 100px;
+	border: 3px solid red;
+	display: inline-block;
+}
+
+.d1 {
+	border: 3px solid blue;
+	/* 	margin: 100px 0px 100px 100px; */
+	/* 	margin: 50px 60px; */
+	margin: 50px;
+	overflow: hidden;
+	
+}
+
+.d2 {
+	/* 	margin: 0px 0px 0px 50px; */
+	/* 	margin-left: 100px;  */
+	margin-right: 100px;
+	padding: 50px 0px 0px 20px;
+	voer
+}
+
+.d3 {
+	width: 50px;
+	height: 50%;
+	background-color: gray;
+	margin: auto;
+	margin-top: 25px;
+	border: 3px solid black;	
+}
+</style>
+</head>
+<body>
+
+	<div class="d d1">
+		<div class="d3"></div>
+	</div>
+	<div class="d d2">test</div>
+
+
+
+</body>
+</html>

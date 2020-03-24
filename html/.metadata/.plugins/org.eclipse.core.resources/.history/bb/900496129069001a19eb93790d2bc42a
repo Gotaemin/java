@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Image Tag</h1>
+<h3>온라인 이미지 태그</h3>
+
+<img style="width: 300px;height: 300px;" alt="아이유 이미지" src="http://cafefiles.naver.net/MjAxODAxMzFfMjAw/MDAxNTE3NDEwNjU1OTM5.VHhhzj1GloWcrVMrb9HZYy9gXXhAcd5AuZ4xOkN8L7Ag.0GuVO0M86goPOg_z6LLFFdWlKv4e-BsrMztzjd3p6ogg.JPEG.narim6767/IMG_20180131_215146.jpg" >
+
+
+<img style="width: 300px;height: 300px;" alt="라이온" src="../images/2.jpg">
+	<a href="https://naver.com"></a>
+</img>
+
+<img style="width: 300px;height: 300px;" alt="라이온2" src="/TestProject/images/rion.jpeg" >
+
+
+</body>
+</html>

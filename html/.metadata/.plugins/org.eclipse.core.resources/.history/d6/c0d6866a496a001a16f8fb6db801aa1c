@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>회원가입</h1>
+<form action="">
+	<p>id : <input type="text" ><Br>
+	<input type="submit" value="전송">
+</form>
+</body>
+</html>

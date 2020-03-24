@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+h1 {
+	background-color: red;
+	width: 50%;
+	text-align: center;
+	
+	color :white;
+}
+
+span{
+	background-color: blue;
+	color :white;
+}
+</style>
+
+
+</head>
+<body>
+	<h1>BOX Model</h1>
+	<span>Inline Box</span>
+	
+	
+</body>
+</html>

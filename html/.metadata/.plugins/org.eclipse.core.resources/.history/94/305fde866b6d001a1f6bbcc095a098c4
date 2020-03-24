@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+.t1{
+	font-size: 3em;
+	font-weight: bold;
+	text-decoration: underlin,overline;
+}
+</style>
+</head>
+<body>
+
+<p class="t1">Samsung Google</p>
+
+</body>
+</html>

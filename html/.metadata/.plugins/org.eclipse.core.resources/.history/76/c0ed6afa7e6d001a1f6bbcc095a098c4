@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.s3{
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "Ink Free";
+	
+}
+
+.s4{
+	font-size: 2em;
+	font-family: "Nanum Gothic","나눔고딕";
+}
+
+</style>
+
+</head>
+<body>
+	<p>default font size 16px</p>
+	<p class="s3"> font size 30px</p>
+	<p class="s4"> font family Courier</p>
+</body>
+</html>

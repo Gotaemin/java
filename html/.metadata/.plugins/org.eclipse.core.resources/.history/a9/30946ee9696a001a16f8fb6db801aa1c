@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.c1{
+	width: 300px;
+}
+
+.c2{
+	width: 150px;
+}
+
+.c3{
+	background-color: blue;
+}
+
+.c4{
+	background-color: 
+}
+
+div{
+	height: 100px;
+}
+
+</style>
+
+</head>
+<body>
+<div class="c1 c3"></div>  300*100 red
+<div class="c2 c3"></div>  150*100 red
+<div class="c1 c4></div>  300*100 red
+<div class="c2 c4"></div>  150*10 red
+
+</body>
+</html>

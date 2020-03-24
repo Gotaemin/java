@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+.main{
+	
+}
+.contents {
+	display: inline-block;
+	width: 250px;
+	height: 400px;
+	margin-right: 20px;
+	background-color: black;
+	overflow: hidden;
+	box-sizing: border-box;	
+
+}
+
+.content_image {
+	background-color: white; 
+	width: 250px;
+	height: 350px;
+	margin: 0px auto;
+}
+
+.content_name {
+	text-align: center;
+	width: 250px;
+	height: 50px;
+	color: white;
+}
+
+h3 {
+	height: 20px;
+}
+
+.font {
+	margin-top: 10px;
+	font-size: large;
+	font-weight: bold;
+}
+.img_size{
+	width="250px";
+	 height="350px";
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="contents">
+			<div class="content_image">
+				<img  src="../images/겐지.png" alt="한조">
+			</div>
+			<div class="content_name">
+				<div class="font">한조</div>
+			</div>
+		</div>
+		<div class="contents">
+			<div class="content_image">
+				<img width="250px" height="350px" src="../images/라인하르트.png" alt="한조">
+			</div>
+			<div class="content_name">
+				<div class="font">라인하르트</div>
+			</div>
+		</div>
+		<div class="contents">
+			<div class="content_image">
+				<img width="250px" height="350px" src="../images/아나.png" alt="한조">
+			</div>
+			<div class="content_name">
+				<div class="font">아나</div>
+			</div>
+		</div>
+		<div class="contents">
+			<div class="content_image">
+				<img width="250px" height="350px" src="../images/한조.png" alt="한조">
+			</div>
+			<div class="content_name">
+				<div class="font">한조</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>

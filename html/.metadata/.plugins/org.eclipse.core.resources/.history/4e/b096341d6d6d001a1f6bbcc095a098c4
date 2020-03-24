@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+.t1{
+ 	font-size: 3em; 
+	font-weight: bold;
+	text-decoration: underline;
+/* 	text-indent: 300px; */
+	text-align: justify;
+/* 	word-spacing:20px; */
+	letter-spacing:10px;
+	
+	border: 1px solid red;	
+}
+</style>
+</head>
+<body>
+
+<p class="t1">Samsung<br> Google</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>hyper Tag</h1>
+<a href="https://www.naver.com" >Go Naver</a>
+<a href="/text/result_1.html">result_page</a>
+</body>
+</html>

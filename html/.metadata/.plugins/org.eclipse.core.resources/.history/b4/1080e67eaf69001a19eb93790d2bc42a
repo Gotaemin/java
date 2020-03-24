@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+table {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.img {
+	width:100px;
+	height:150px;
+}
+
+.character tr td img{
+	width:100px;
+	height:150px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+	<table border="1">
+		<caption>테이블 테스트</caption>
+		<tr>
+			<td>1-1</td>
+			<td>1-2</td>
+		</tr>
+		<tr>
+			<td>2-1</td>
+			<td>2-2</td>
+		</tr>
+	</table>
+
+
+<table class="character" border="1">
+	<tr>
+		<th>이미지</th>
+		<th>캐릭터명</th>
+		<th>성별</th>
+	</tr>
+	<tr>
+		<td><img width="100px" height="150px" alt="" src="../images/리퍼.png"></td>
+		<td>리퍼</td>
+		<td>남자</td>
+	</tr>
+	<tr>
+		<td><img class="img" alt="" src="../images/솔저.png"></td>
+		<td>솔저</td>
+		<td>남자</td>
+	</tr>
+	<tr>
+		<td><img alt="" src="../images/트레이서.png"></td>
+		<td>트레이서</td>
+		<td>여자</td>
+	</tr>
+	<tr>
+		<td><img alt="" src="../images/2.ㅓㅔg"></td>
+		<td>라이언</td>
+		<td>??</td>
+	</tr>
+</table>
+
+
+
+</body>
+</html>
