@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>메인페이지</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+h3{
+	height: 41px;
+	margin : 30px 0 15px;
+	border: 1px solid black;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	line-height: 1.2;
+    color: #666;
+    font-family: 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-weight: bold;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<div class="root">
+	<!-- 헤더 -->
+	<div class="header">
+		<div class="head">
+			<h1><a href="#"><img src="images/header/h1_cgv.png" alt="cgvLogo"></a></h1>
+			<div class="header_service"></div>
+			<div class="header_menu">
+				<h2>
+					<img src="images/header/h2_cultureplex.png" alt="cultureplex">
+				</h2>
+				<div class="menu">
+					<ul>
+						<li class="menu_movie"><a href="">영화</a></li>
+						<li class="menu_reserve"><a href="">예매</a></li>
+						<li class="menu_theater"><a href="">극장</a></li>
+						<li class="menu_event"><a href="">이벤트n컬처</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<fieldset>
+						<input type="text" placeholder="주디 3월25일 개봉">
+						<button class="btn-go-search">검색</button>
+					</fieldset>
+				</div>
+				<div class="phototicket"></div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
+	<!-- 컨테이너 -->
+	<div class="container">
+		<div class="contents">
+			<div class="section_slider"></div>
+			<h3></h3>
+			<div class="section_movie"></div>
+			<h3></h3>
+			<ul class="tab_menu"></ul>
+			<div class="section_event"></div>
+			<div class="section_banner"></div>
+			<div class="section_notice"></div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- 푸터 -->
+	<div class="footer">
+		<div class="footer_wrap"></div>
+		<div class="foot">
+			<div class="smuse"></div>
+			<div class="cinfo"></div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- 사이드바 -->
+	<div class="sidebar"></div>
+</div>
+
+
+</body>
+</html>
