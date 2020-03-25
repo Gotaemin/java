@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<link href="../css/join.css" rel="stylesheet" type="text/css">
+
+<title>Insert title here</title>
+</head>
+<body>
+
+<div class="root">
+	<!-- 헤더 -------------------------------------------------------------------------------------->
+	<div class="header">
+		<div class="head">
+			<h1><a href="/CgvProject/main.html"><img src="/CgvProject/images/header/h1_cgv.png" alt="cgvLogo"></a></h1>
+			<div class="header_service">
+				<ul class="util"></ul>
+				<ul class="gnb">
+					<li><a class="login" href="/CgvProject/member/login.html"><span>로그인</span></a></li>
+					<li><a class="join" href="/CgvProject/member/join.html"><span>회원가입</span></a></li>
+					<li><a class="mycgv" href="#"><span>MyCGV</span></a></li>
+					<li><a class="vip_lounge" href="#"><span>VIPLOUNGE</span></a></li>
+					<li><a class="club_service" href="#"><span>Club서비스</span></a></li>
+					<li><a class="customer" href="#"><span>고객센터</span></a></li>
+					<li><a class="english_ticketing" href="#"><span>ENGLISHTICKETING</span></a></li>
+				</ul>
+			</div>
+			<div class="header_menu">
+				<h2>
+					<img src="/CgvProject/images/header/h2_cultureplex.png" alt="cultureplex">
+				</h2>
+				<div class="menu">
+					<ul>
+						<li class="menu_movie"><a href="">영화</a></li>
+						<li class="menu_reserve"><a href="">예매</a></li>
+						<li class="menu_theater"><a href="">극장</a></li>
+						<li class="menu_event"><a href="">이벤트&컬처</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<fieldset>
+						<input type="text" placeholder="주디 3월25일 개봉">
+						<button class="btn-go-search">검색</button>
+					</fieldset>
+				</div>
+				<div class="phototicket">
+					<a href="#">포토티켓</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<!-- 컨테이너 -------------------------------------------------------------------------------------->
+	
+	<div class="container">
+		<div class="c_nav">
+			<div class="nav_linemap">
+				<ul>
+					<li>
+						<a href="/CgvProject/main.html">
+							<img alt="go to Home" src="../images/login/btn_home.png">					
+						</a>
+					</li>
+					<li>
+						<a href="login.html">회원 서비스</a>
+					</li>
+					<li class="last">
+						회원가입
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="contents">
+			<div class="wrap_login">
+				<ul class="tab_menu_round">
+					<li>
+						<a class="lo" href="#">회원가입</a>
+					</li>
+				</ul>
+				<div class="box_login">
+					<form class="box_form" action="#">
+						<fieldset>
+							<div class="login_input">
+								<h2>아이디</h2>
+								<input class="id" type="text">
+								<h2>비밀번호</h2>
+								<input type="password">
+								<h2>비밀번호 재확인</h2>
+								<input type="password">
+								<h2>이름</h2>
+								<input class="text" type="text">
+								<h2>생년월일</h2>
+								<div class="ymd">
+									<input class="text year" type="text" placeholder="년(4자리)">
+									<select class="month">
+										<option hidden="월"></option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+									</select>
+									<input class="text day" type="text" placeholder="일">
+								</div>
+								
+								<h2>전화번호</h2>
+								<input class="text" type="text">
+								<h2>이메일</h2>
+								<input type="email" placeholder="선택입력">
+							</div>
+						
+						</fieldset>
+					</form>
+					
+				</div>
+				<button type="submit"><span>가입 신청</span></button>
+			</div>
+		
+		</div>
+		
+		
+		
+		
+	</div>
+	
+	
+	<!-- 푸터 -------------------------------------------------------------------------------------->
+	<div class="footer">
+		<div class="footer_wrap">
+			<div class="footer_contents">
+				<a href="#">
+					<img alt="" src="/CgvProject/images/footer/980x240.png">
+				</a>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="smuse">
+				<ul>
+					<li><a href="#" class="dx"></a></li>
+					<li><a href="#" class="imax">IMAX</a></li>
+					<li><a href="#" class="screenx">SCREENX</a></li>
+					<li><a href="#" class="spherex">SPHEREX</a></li>
+					<li><a href="#" class="cinema">CINEMA</a></li>
+					<li><a href="#" class="goldclass">GOLDCLASS</a></li>
+					<li><a href="#" class="chef">CINE DE CHEF</a></li>
+					<li><a href="#" class="primite">PRIMITE CINEA</a></li>
+					<li><a href="#" class="kids">CINE KIDS</a></li>
+					<li><a href="#" class="foret">CINE_FORET</a></li>
+				</ul>
+			</div>
+			<div class="cjinfo">
+				<p class="footer_logo">CGV 로고</p>
+				
+				<div class="policy">
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">IR</a></li>
+						<li><a href="#">채용정보</a></li>
+						<li><a href="#">광고/프로모션문의</a></li>
+						<li><a href="#">제휴문의</a></li>
+						<li><a href="#">출점문의</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">편성기준</a></li>
+						<li><a style="color:#e7612e;" href="#">개인정보처리방침</a></li>
+						<li><a href="#">법적고지</a></li>
+						<li><a href="#">이메일주소무단수집거부</a></li>
+						<li><a href="#">상생경영</a></li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+				</div>
+				<div class="share"></div>
+			
+				<div class="address">
+					<address>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</address>
+					<p class="vl">
+						<span>대표이사 : 최병환</span>
+						<span>사업자등록번호 : 104-81-45690</span>
+						<span>통신판매업신고번호 : 2017-서울용산-0662</span>
+						<img src="/CgvProject/images/footer/btn_reg.png">
+					</p>
+					<p class="vl">
+						<span>호스팅사업자 : CJ올리브네트웍스</span>
+						<span>개인정보보호 책임자 : 정종민</span>
+						<span>대표이메일 : cjcgvmaster@cj.net</span>
+						<span>CGV고객센터 : 1544-1122</span>
+					</p>
+					<p class="copyright">
+						© CJ CGV. All Rights Reserved
+					</p>
+				</div>
+				<div class="familysite">
+					<select>
+						<option>계열사 바로가기</option>
+						<option>CJ그룹</option>
+						<option>엔터테이먼트&미디어</option>
+						<option>식품&식품서비스</option>
+						<option>생명공학</option>
+						<option>신유통</option>
+						<option>인프라</option>
+					</select>
+					<button type="button">GO</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- 사이드바 ---------------------------------------------------------------------------------------------->
+	<div class="sidebar">
+		<div class="aside-content-top">
+			<div class="aside-content-btm">
+				<a></a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_theater.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_arthouse.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_special.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_phototicket.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_ticket.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_discount.gif"> </a>
+			</div>
+		</div>
+		<div class="aside-btn-top">
+			<a href="#" onclick="window.scrollTo(0,0);return false;"></a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

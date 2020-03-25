@@ -5,6 +5,34 @@
 	padding: 0px;
 }
 
+
+h3{
+	height: 41px;
+	margin : 30px 0 15px;
+/* 	border: 1px solid black; */
+	
+	background: url("../images/container/movie/bg_h3_line.jpg") repeat-x 0 50%;
+	line-height: 41px;
+	text-align: center;
+}
+
+div{
+	display: block;
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+body{
+	line-height: 1.2;
+    color: #666;
+    font-family: 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-weight: bold;
+}
+
 .root {
 	position: relative;
 	width: 100%;
@@ -35,6 +63,73 @@
 /* 	border: 1px solid black; */
 }
 
+.util{
+	list-style: none;
+}
+.util li{
+	float: left;
+}
+
+.gnb{
+	list-style: none;
+	float: right;
+	text-align: left;
+}
+.gnb li{
+/* 	box-sizing:border-box; */
+/* 	padding: 0 10px; */
+	height: 29.6px;
+	line-height: 29.6px;
+	display: inline-block;
+	float: left;
+	background: url("../images/header/bg_v_line.gif") no-repeat 0 50%;
+/* 	border: 1px solid red; */
+}
+
+.gnb li a{
+	
+	overflow: hidden;
+	background-image: url("../images/common_sprite_area_v4_2016.png");
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	
+	display: block;
+	padding: 0 10px;
+	line-height: 30px;
+	
+}
+.gnb li a span{
+	visibility: hidden;
+}
+.login{
+	width: 29px;
+	background-position: 10px 9px;
+}
+.join{
+	width: 39px;
+	background-position: -42px 9px;
+}
+.mycgv{
+	width: 39px;
+	background-position: -103px 9px;
+}
+.vip_lounge{
+	width: 62px;
+	background-position: -170px 9px;
+}
+.club_service{
+	width: 53px;
+	background-position: -254px 9px;
+}
+.customer{
+	width: 38px;
+	background-position: -328px 9px;
+}
+.english_ticketing{
+	width: 106px;
+	background-position: -388px 9px;
+}
 
 
 
@@ -174,89 +269,327 @@
 }
 
 /* ---------------------------------------------------------------------container */
-.container {
-	width: 100%;
-	border: 1px solid red;
-}
 
-.contents {
-	width: 980px;
-	height: 1608px;
-	padding-bottom: 50px;
-	margin: 0 auto;
-	border: 1px solid black;
-}
-
-.section_slider {
-	height: 450px;
-	border: 1px solid black;
-	overflow: hidden;
-}
-
-.section_movie {
-	height: 388px;
-	border: 1px solid black;
-}
-
-.tab_menu {
-	height: 39px;
-	border: 1px solid black;
-}
-
-.section_event {
-	height: 233px;
-	border: 1px solid black;
-}
-
-.section_banner {
-	height: 273px;
-	border: 1px solid black;
-}
-
-.section_notice {
-	height: 36px;
-	border: 1px solid black;
-}
 
 /* ---------------------------------------------------------------------footer */
 .footer {
-	
+	background: url("../images/footer/bg_footer_com.gif") repeat-x 0 100% ;
 }
 
 .footer_wrap {
 	width: auto;
 	height: 240px;
 	text-align: center;
-	border: 1px solid black;
+	background-image: url("../images/footer/bg_temp_foot_banner.gif");
+	background-repeat: repeat-x;
+	background-color : #f3afb2;
+	
+	
+	
+/* 	border: 1px solid black; */
+}
+
+.footer_contents{
+	width:980px;
+	margin: 0 auto;
 }
 
 .foot {
 	width: 100%;
 	height: auto;
 	padding: 0 0 147px;
-	border: 1px solid black;
+/* 	border: 1px solid black; */
 }
 
+/* ---------------------------------------------------------------------footer smuse */
 .smuse {
 	overflow: hidden;
 	width: 100%;
 	height: 66px;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
+	border-top: 1px solid #949494;
+	border-bottom: 1px solid #949494;
 	position: relative;
 	margin: 0 auto;
 }
 
-.cinfo {
-	padding-top: 28px;
+.smuse{
+	width: 100%;
+	margin: 0 auto;
+/* 	border: 1px solid black; */
+}
+.smuse ul{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.smuse li{
+	float: left;
+	display: inline-block;
+	padding: 10px 0;
+	margin-left: 22px;
+/* 	border: 1px solid black; */
+}
+
+.smuse li:first-child{
+	margin-left: 0px;
+}
+
+.smuse li a{
+	display: block;
+	height: 44px;
+	background-image: url("../images/common_sprite_area_v4_2016.png");
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	text-decoration: none;
+	overflow:hidden;
+	color: inherit;
+	
+}
+
+.smuse li > .dx{
+	width: 49px;
+	background-position: 0 -768px;
+}
+.smuse li > .imax{
+	width: 59px;
+	background-position: -74px -768px;
+}
+.smuse li > .screenx{
+	width: 88px;
+	background-position: -159px -768px;
+}
+.smuse li > .spherex{
+	width: 76px;
+	background-position: -273px -768px;
+}
+.smuse li > .cinema{
+	width: 55px;
+	background-position: -480px -768px;
+}
+.smuse li > .goldclass{
+	width: 84px;
+	background-position: -567px -768px;
+}
+.smuse li > .chef{
+	width: 89px;
+	background-position: -679px -768px;
+}
+.smuse li > .primite{
+	width: 86px;
+	background-position: 0 -826px;
+}
+.smuse li > .kids{
+	width: 70px;
+	background-position: -113px -826px;
+}
+.smuse li > .foret{
+	width: 120px;
+	background-position: -207px -826px;
+}
+
+
+/* ---------------------------------------------------------------------footer cjinfo*/
+.cjinfo {
 	position: relative;
+	box-sizing:border-box;
+	padding-top: 28px;
 	width: 980px;
 	margin: 0 auto;
 	height: 116px;
-	border: 1px solid black;
+/* 	border: 1px solid black; */
 }
+
+.footer_logo{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	
+	width: 100px;
+	height: 43px; 
+	background-position: -145px -319px;
+	overflow: hidden;
+	background-image: url("../images/common_sprite_area_v4_2016.png");
+/* 	background: no-repeat; */
+	text-indent: 100%;
+	white-space: nowrap;
+/* 	border: 1px solid black; */
+}
+
+/* ---------------------------------------------------------------------footer cjinfo policy*/
+.policy{
+	width: auto;
+	height: 25px;
+/* 	letter-spacing: 0px; */
+	margin: 0 -11px;
+	box-sizing: border-box;
+/* 	border: 1px solid black; */
+}
+
+.policy li:first-child{
+	padding-left:0px;
+	background: none;
+}
+
+.policy li{
+	float: left;
+	display: inline-block;
+	background: url("../images/footer/bg_li_vline2.gif") no-repeat 0 5px;
+/* 	border: 1px solid black; */
+}
+
+.policy li > a{
+	padding: 0 8px;
+	font-weight: 600;
+	font-size: 13px;
+	color: #444444;
+	text-decoration: none;
+	vertical-align: middle;
+	letter-spacing: -1px;
+}
+
+/* ---------------------------------------------------------------------footer cjinfo address*/
+.address{
+	padding: 20px 0  0 108px;
+	font-size: 12px;
+	color: #555555;
+/* 	border: 1px solid red; */
+}
+
+.address > address{
+	font-style: normal;
+	height: 12px;
+	font-weight: 300;
+}
+
+.vl{
+	margin-top: 4px;
+	height: 21px;
+}
+
+.vl img{
+	vertical-align: middle;
+}
+
+.vl > span:first-child{
+	margin-left: 0px;
+	padding-left:0px;
+	border: none;
+}
+.vl > span:last-child{
+	margin-right: 2px;
+}
+.vl > span{
+	display: inline-block;
+	margin-left: 5px;
+	padding-left: 5px;
+	font-style: normal;
+	height: 12px;
+	font-weight: 300;
+	border-left: 1px solid #c0c0c0;
+}
+
+.copyright{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	font-size: 11px;
+}
+
+.familysite{
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+}
+.familysite select{
+	width: 140px;
+	background: transparent;
+	border: 1px solid #999;
+	line-height: 27px;
+	height: 29px;
+	padding: 3px 5px;
+	font-size: 13px;
+	color: #666;
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.familysite select option{
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 1.2em;
+}
+
+.familysite > button{
+	width: 29px;
+	height: 29px;
+	background-color: #666;
+	color: #fdfcf0;
+	border: none;
+	cursor: pointer;
+}
+
 
 /* ---------------------------------------------------------------------sidebar */
 .sidebar {
+	width: 116px;
+	text-align: left;
+	position: fixed;
+	z-index: 1;
+	left: 1535px;
+	top: 159px;
+	
+/* 	background-color: white; */
+}
+
+.aside-content-top{
+	padding-top: 10px;
+	background: url("../images/asidebar/bg_aside_banner_top.png") no-repeat 0 0;
+}
+.aside-content-btm{
+	padding: 0 7px 10px;
+	background: url("../images/asidebar/bg_aside_banner_bottom.png") no-repeat 0 100%;
+}
+.aside-content-btm > a{
+	display: block;
+}
+
+.aside-btn-top{
+	
+	width: 116px;
+	height: 72px;
+	background: url("../images/asidebar/btn_top.png") no-repeat 0 0;
+/* 	border: 1px solid black; */
+}
+
+.aside-btn-top > a{
+	width: 116px;
+	height: 72px;
+	display: block;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
