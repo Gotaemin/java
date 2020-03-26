@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="month"/>
+		<item key="selection" value="button"/>
 		<list key="findhistory">
+			<item value="button"/>
 			<item value="month"/>
 			<item value="select"/>
 			<item value="year"/>
@@ -22,7 +23,6 @@
 			<item value="rd"/>
 			<item value="position"/>
 			<item value="a"/>
-			<item value="font"/>
 		</list>
 		<list key="replacehistory">
 		</list>
