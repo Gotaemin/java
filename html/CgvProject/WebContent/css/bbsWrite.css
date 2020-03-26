@@ -9,7 +9,7 @@ img{
 	width: 100%;
 	background-color: #fdfcf0;
 	
-	height: 570px; 
+	height: 600px; 
 
 }
 
@@ -41,15 +41,12 @@ img{
 }
 
 .tbl_bbs_write tr:first-child{
-
+	border-top: none;
 }
 .tbl_bbs_write tr{
 	border-top: 1px solid #d6d4ca;
 }
 
-tr{
-	border: 2px solid black;
-}
 
 .tbl_bbs_write th{
 	line-height: 27px;
@@ -84,12 +81,11 @@ input[type='text'] {
 }
 
 
-}
+
 .textarea{
-	height: 94px !important;
+	height: 120px !important;
 	padding: 10px;
 	width: 672px;
-	height: 40px;
 	border: 1px solid #b5b5b5;
 	background-color: #fdfcf0;
 	resize: vertical;

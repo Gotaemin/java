@@ -30,6 +30,11 @@
 	outline: 3px solid #ead3d7;
 }
 
+.search_area select{
+	vertical-align: bottom;
+}
+
+
 input{
 	font-size: 13px;
 	line-height: 1.2;
