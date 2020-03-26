@@ -18,6 +18,7 @@
 	height: 1608px;
 	padding-bottom: 50px;
 	margin: 0 auto;
+	position: relative;
 /* 	border: 1px solid black; */
 }
 
@@ -28,8 +29,29 @@
 	width:100%;
 	overflow: hidden;
 	background-color: white;
-/* 	background-image: url("../images/container/slider_img_1.jpg"); */
 /* 	border: 1px solid black; */
+}
+
+.section_slider:before{
+	left: 0;
+	background: url("../images/container/slider/bg_bricks_before.png") no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	content: '';
+	width: 14px;
+	height: 450px;
+}
+
+.section_slider:after{
+	right: 0;
+	background: url("../images/container/slider/bg_bricks_after.png") no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	content: '';
+	width: 14px;
+	height: 450px;
 }
 
 /* ---------------------------------------------------------------------container_movie_section */

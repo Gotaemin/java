@@ -157,10 +157,12 @@ body{
 .login_input .month{
 	width: 95px;
 	margin-bottom: 5px;
+	margin-top : 2px;
 	height: 39px;
 	padding: 0 5px 0 10px;
 	line-height: 33px;
 	border: 2px solid #b5b5b5;
+	vertical-align: bottom;
 }
 
 .month, .month option{

@@ -6,8 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="login"/>
+		<item key="selection" value="month"/>
 		<list key="findhistory">
+			<item value="month"/>
+			<item value="select"/>
+			<item value="year"/>
+			<item value=".month"/>
+			<item value="txt"/>
+			<item value="inred"/>
+			<item value="field"/>
+			<item value=".round"/>
 			<item value="login"/>
 			<item value="section_event"/>
 			<item value="red"/>
@@ -15,8 +23,6 @@
 			<item value="position"/>
 			<item value="a"/>
 			<item value="font"/>
-			<item value="float:left;"/>
-			<item value="&lt;span class=&quot;s1&quot;&gt;Test&lt;/span&gt;"/>
 		</list>
 		<list key="replacehistory">
 		</list>
