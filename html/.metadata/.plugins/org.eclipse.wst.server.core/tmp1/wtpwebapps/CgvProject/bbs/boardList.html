@@ -2,9 +2,474 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
+<link href="../css/bbsList.css" rel="stylesheet" type="text/css">
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+
 <title>Insert title here</title>
 </head>
 <body>
+
+<div class="root">
+	<!-- 헤더 -------------------------------------------------------------------------------------->
+	<div class="header">
+		<div class="head">
+			<h1><a href="/CgvProject/main.html"><img src="/CgvProject/images/header/h1_cgv.png" alt="cgvLogo"></a></h1>
+			<div class="header_service">
+				<ul class="util"></ul>
+				<ul class="gnb">
+					<li><a class="login" href="/CgvProject/member/login.html"><span>로그인</span></a></li>
+					<li><a class="join" href="/CgvProject/member/join.html"><span>회원가입</span></a></li>
+					<li><a class="mycgv" href="#"><span>MyCGV</span></a></li>
+					<li><a class="vip_lounge" href="#"><span>VIPLOUNGE</span></a></li>
+					<li><a class="club_service" href="#"><span>Club서비스</span></a></li>
+					<li><a class="customer" href="#"><span>고객센터</span></a></li>
+					<li><a class="english_ticketing" href="#"><span>ENGLISHTICKETING</span></a></li>
+				</ul>
+			</div>
+			<div class="header_menu">
+				<h2>
+					<img src="/CgvProject/images/header/h2_cultureplex.png" alt="cultureplex">
+				</h2>
+				<div class="menu">
+					<ul>
+						<li class="menu_movie"><a href="">영화</a></li>
+						<li class="menu_reserve"><a href="">예매</a></li>
+						<li class="menu_theater"><a href="">극장</a></li>
+						<li class="menu_event"><a href="">이벤트&컬처</a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<fieldset>
+						<input type="text" placeholder="주디 3월25일 개봉">
+						<button class="btn-go-search">검색</button>
+					</fieldset>
+				</div>
+				<div class="phototicket">
+					<a href="#">포토티켓</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<!-- 컨테이너 -------------------------------------------------------------------------------------->
+	
+	<div class="container">
+		<div class="c_nav">
+			<div class="nav_linemap">
+				<ul>
+					<li>
+						<a href="/CgvProject/main.html">
+							<img alt="go to Home" src="../images/login/btn_home.png">					
+						</a>
+					</li>
+					<li>
+						<a href="http://www.cgv.co.kr/support/">고겍센터</a>
+					</li>
+					<li class="last">
+						게시판
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="contents">
+			<div>
+				
+				<div class="col_content">
+					<!----------------------------------------------------------------------------------------------------- contents aside -->
+					<div class="col_aside">
+						<div class="snb">
+							<ul>
+								<li><a href="#">고객센터 메인<i></i></a></li>
+								<li><a href="#">자주찾는 질문<i></i></a></li>
+								<li class="on"><a href="#">공지/뉴스<i></i></a></li>
+								<li><a href="#">이메일 문의<i></i></a></li>
+								<li><a href="#">분실문 문의<i></i></a></li>
+								<li><a href="#">단체/대관 문의<i></i></a></li>
+								<li><a href="#">대학로 옥탑 예약<i></i></a></li>
+							</ul>
+						
+						</div>
+						<div class="ad_area">
+							<div class="ad_panner_1">
+								<a href="#">
+									<img alt="" src="/CgvProject/images/bbsList/200313_160x300.jpg">
+								</a>
+							</div>
+							<div class="ad_panner_2">
+								<a href="#">
+									<img alt="" src="/CgvProject/images/bbsList/0325_160x35.png">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<!----------------------------------------------------------------------------------------------------- contents detail -->
+					
+					<div class="col_detail">
+					
+						<!----------------------------------------------------------------------------------------------------- contents detail customer_top-->
+						<div class="customer_top">
+							<h2 class="tit">공지/뉴스</h2>
+							<p class="stit">CGV의 주요한 이슈 및 여러가지 소식들을 확인하실 수 있습니다.</p>
+						</div>
+						
+						
+						<!----------------------------------------------------------------------------------------------------- contents detail search_area-->
+						<div class="search_area">
+							<select style="width: 100px;">
+								<option selected="selected">제목</option>
+								<option>내용</option>
+							</select>
+							<input type="text" placeholder="검색어를 입력해 주세요" style="width: 185px;">
+							<button type="button" class="round inblack"><span>검색하기</span></button>
+						</div>
+					
+						<!----------------------------------------------------------------------------------------------------- contents detail tab-->
+						<div class="wrap_tab">
+							<ul class="tab_menu_round">
+								<li>
+									<a class="lo" href="#">전체</a>
+								</li>
+							</ul>
+							
+						</div>
+						
+						<!----------------------------------------------------------------------------------------------------- contents detail search_result-->
+						<div class="search_result">
+							총<span class="num">2840건</span>이 검색되었습니다.
+						</div>
+						
+						
+						<!----------------------------------------------------------------------------------------------------- contents detail box_bbslist-->
+						<div class="box_bbsList">
+							<table  class="tbl_list">
+								<colgroup>
+									<col style="width: 50px;">
+									<col style="width: 80px;">
+									<col style="width: 570px;">
+									<col style="width: 64px;">
+									<col style="width: 60px;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">번호</th>
+										<th scope="col">구분</th>
+										<th scope="col" class="tit">제목</th>
+										<th scope="col">등록일</th>
+										<th scope="col">조회수</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr><tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+									<tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr><tr class="first">
+										<td>2840</td>
+										<td>[극장]</td>
+										<td class="txt">
+											<a href="#">[씨네드쉐프 센텀시티] 영업중단 안내</a>
+										</td>
+										<td>2020.03.26</td>
+										<td class="num">19</td>
+									</tr>
+								</tbody>
+							</table>
+							
+						</div>
+						
+						<!----------------------------------------------------------------------------------------------------- contents detail paging-->
+						<div class="paging">
+							<ul>
+								<li class="on"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">7</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#">10</a></li>
+							</ul>
+							<button type="button" class="btn_page next">다음</button>
+							<button type="button" class="btn_page end">끝</button>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- 푸터 -------------------------------------------------------------------------------------->
+	<div class="footer">
+		<div class="footer_wrap">
+			<div class="footer_contents">
+				<a href="#">
+					<img alt="" src="/CgvProject/images/footer/980x240.png">
+				</a>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="smuse">
+				<ul>
+					<li><a href="#" class="dx"></a></li>
+					<li><a href="#" class="imax">IMAX</a></li>
+					<li><a href="#" class="screenx">SCREENX</a></li>
+					<li><a href="#" class="spherex">SPHEREX</a></li>
+					<li><a href="#" class="cinema">CINEMA</a></li>
+					<li><a href="#" class="goldclass">GOLDCLASS</a></li>
+					<li><a href="#" class="chef">CINE DE CHEF</a></li>
+					<li><a href="#" class="primite">PRIMITE CINEA</a></li>
+					<li><a href="#" class="kids">CINE KIDS</a></li>
+					<li><a href="#" class="foret">CINE_FORET</a></li>
+				</ul>
+			</div>
+			<div class="cjinfo">
+				<p class="footer_logo">CGV 로고</p>
+				
+				<div class="policy">
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">IR</a></li>
+						<li><a href="#">채용정보</a></li>
+						<li><a href="#">광고/프로모션문의</a></li>
+						<li><a href="#">제휴문의</a></li>
+						<li><a href="#">출점문의</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">편성기준</a></li>
+						<li><a style="color:#e7612e;" href="#">개인정보처리방침</a></li>
+						<li><a href="#">법적고지</a></li>
+						<li><a href="#">이메일주소무단수집거부</a></li>
+						<li><a href="#">상생경영</a></li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+				</div>
+				<div class="share"></div>
+			
+				<div class="address">
+					<address>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</address>
+					<p class="vl">
+						<span>대표이사 : 최병환</span>
+						<span>사업자등록번호 : 104-81-45690</span>
+						<span>통신판매업신고번호 : 2017-서울용산-0662</span>
+						<img src="/CgvProject/images/footer/btn_reg.png">
+					</p>
+					<p class="vl">
+						<span>호스팅사업자 : CJ올리브네트웍스</span>
+						<span>개인정보보호 책임자 : 정종민</span>
+						<span>대표이메일 : cjcgvmaster@cj.net</span>
+						<span>CGV고객센터 : 1544-1122</span>
+					</p>
+					<p class="copyright">
+						© CJ CGV. All Rights Reserved
+					</p>
+				</div>
+				<div class="familysite">
+					<select>
+						<option>계열사 바로가기</option>
+						<option>CJ그룹</option>
+						<option>엔터테이먼트_미디어</option>
+						<option>식품_식품서비스</option>
+						<option>생명공학</option>
+						<option>신유통</option>
+						<option>인프라</option>
+					</select>
+					<button type="button">GO</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- 사이드바 ---------------------------------------------------------------------------------------------->
+	<div class="sidebar">
+		<div class="aside-content-top">
+			<div class="aside-content-btm">
+				<a></a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_theater.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_arthouse.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_special.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_phototicket.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_ticket.gif"> </a>
+				<a href="#"><img alt="" src="/CgvProject/images/asidebar/btn_person_discount.gif"> </a>
+			</div>
+		</div>
+		<div class="aside-btn-top">
+			<a href="#" onclick="window.scrollTo(0,0);return false;"></a>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>

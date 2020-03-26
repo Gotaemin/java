@@ -30,7 +30,7 @@ body{
 	line-height: 1.2;
     color: #666;
     font-family: 'CJONLYONENEW', '맑은 고딕', '돋움', Dotum, sans-serif;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 .root {
@@ -274,9 +274,11 @@ body{
 /* ---------------------------------------------------------------------footer */
 .footer {
 	background: url("../images/footer/bg_footer_com.gif") repeat-x 0 100% ;
+	clear: both;
 }
 
 .footer_wrap {
+	clear: both;
 	width: auto;
 	height: 240px;
 	text-align: center;
