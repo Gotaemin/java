@@ -176,8 +176,6 @@ header {
 				<div class="item">
 					<img src="image/3.jpg" style="min-width:100%; min-heigth:400px;">
 				</div>
-				
-				
 			</div>
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left"></span>
