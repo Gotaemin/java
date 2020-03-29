@@ -73,8 +73,27 @@
 	top:0;
 	bottom:0;
 	opacity:0;
-	animation:fade 12s infinite;
+	animation-name: fade;
+	animation-duration: 12s;
+	animation-iteration-count:infinite;
+	animation-fill-mode:forward;
 }
+
+.slide li:nth-child(1){animation-delay:0s}
+.slide li:nth-child(2){animation-delay:3s}
+.slide li:nth-child(3){animation-delay:6s}
+.slide li:nth-child(4){animation-delay:9s}
+/* 100 / 8 = 12.5 */
+
+
+@keyframes fade {
+	0% {opacity:0;}
+	5% {opacity:1;}
+	25% {opacity:1;}
+	30% {opacity:0;}
+	100% {opacity:0;}
+ }
+
 .slide input{
 	display:none;
 }
@@ -100,29 +119,33 @@
 }
 
 
-/* .slide li:nth-child(1){background:url("../images/container/slider/slider_img_1.jpg");animation-delay:0s} */
-/* .slide li:nth-child(2){background:url("../images/container/slider/slider_img_2.jpg");animation-delay:3s} */
-/* .slide li:nth-child(3){background:url("../images/container/slider/slider_img_3.jpg");animation-delay:6s} */
-/* .slide li:nth-child(4){background:url("../images/container/slider/slider_img_4.jpg");animation-delay:9s} */
 
-.slide li:nth-child(1){animation-delay:0s}
-.slide li:nth-child(2){animation-delay:3s}
-.slide li:nth-child(3){animation-delay:6s}
-.slide li:nth-child(4){animation-delay:9s}
-/* 100 / 8 = 12.5 */
+
+#pos1:checked ~ ul li:nth-child(1){animation-delay:0s}
+#pos2:checked ~ ul li:nth-child(2){animation-delay:3s}
+#pos3:checked ~ ul li:nth-child(3){animation-delay:6s}
+#pos4:checked ~ ul li:nth-child(4){animation-delay:9s}
+
+#pos1:checked ~ ul li:nth-child(1),
+#pos2:checked ~ ul li:nth-child(2),
+#pos3:checked ~ ul li:nth-child(3),
+#pos4:checked ~ ul li:nth-child(4)
+{
+	opacity:1;
+}
+
+
 
 #pos1:checked ~ .bullet label:nth-child(1), 
 #pos2:checked ~ .bullet label:nth-child(2), 
 #pos3:checked ~ .bullet label:nth-child(3), 
-#pos4:checked ~ .bullet label:nth-child(4){background: #e71a0f; border:1px solid #e71a0f;} 
+#pos4:checked ~ .bullet label:nth-child(4)
+{
+	background: #e71a0f; 
+	border:1px solid #e71a0f;
+} 
 
-@keyframes fade {
-	0% {opacity:0;}
-	5% {opacity:1;}
-	25% {opacity:1;}
-	30% {opacity:0;}
-	100% {opacity:0;}
- }
+
 
 
 
