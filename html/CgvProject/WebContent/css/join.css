@@ -5,6 +5,11 @@ a{
 	color: black;
 }
 
+p{
+	height: 10px;
+	width: 500px;
+}
+
 strong{
 	font-weight: 500;
 }
@@ -107,7 +112,7 @@ body{
 	border-bottom: 2px solid #898987;
 	padding: 70px 0 0 295px;
 	padding-top: 20px;
-	height: 700px;
+	height: 750px;
 	
 /* 	border: 1px solid black; */
 }
@@ -208,6 +213,11 @@ body{
 	
 	float: right;
 	margin: 20px 0;
+}
+
+#btn{
+	position: relative;
+	top: 50px;
 }
 
 .wrap_login button > span{

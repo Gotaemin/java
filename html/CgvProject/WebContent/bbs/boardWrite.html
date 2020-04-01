@@ -133,7 +133,7 @@
 												<th scope="row"><label>아이디 <img alt="" src="../images/bbsWrite/ico_redstar.png"></label></th>
 												<td colspan="3">
 													<!--<strong>고태민</strong>  -->
-													<input name="userID" type="text" class="in01" style="width: 235px;">
+													<input id="userID" name="userID" type="text" class="in01 check" style="width: 235px;">
 												</td>
 											</tr>
 											<tr>
@@ -147,7 +147,7 @@
 													<label>제목 <img alt="" src="../images/bbsWrite/ico_redstar.png"> </label>
 												</th>
 												<td colspan="3">
-													<input name="title" type="text" class="in01" style="width: 672px;">
+													<input id="title" name="title" type="text" class="in01 check" style="width: 672px;">
 												</td>
 											</tr>
 											<tr>
@@ -155,10 +155,10 @@
 													<label>내용 <img alt="" src="../images/bbsWrite/ico_redstar.png"> </label>
 												</th>
 												<td colspan="3">
-													<textarea name="contents" rows="5" cols="70" class="textarea" placeholder="※문의 내용 및 첨부파일 내에 개인정보(신용카드번호, 계좌번호, 주민번호 등)가 포함되지 않도록 유의하시기 바랍니다."></textarea>
+													<textarea id="textarea_l" name="contents" rows="5" cols="70" class="textarea check" placeholder="※문의 내용 및 첨부파일 내에 개인정보(신용카드번호, 계좌번호, 주민번호 등)가 포함되지 않도록 유의하시기 바랍니다."></textarea>
 													<p class="byte_info">
-														<span>0</span>/5000BYTE
-														<span>(<span>0</span>/2500자)</span>
+														<span id="s_byte">0</span>/5000BYTE
+														<span>(<span id="s_length">0</span>/2500자)</span>
 													</p>
 												</td>
 											</tr>
@@ -178,7 +178,7 @@
 									<a href="boardList.html" class="round gray">
 										<span>취소</span>
 									</a>
-									<button type="submit" class="round inred"><span>등록하기</span></button>
+									<button id="btn" type="submit" class="round inred"><span>등록하기</span></button>
 								</div>
 							</fieldset>
 						</form>
@@ -291,6 +291,8 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript" src="../js/bbsWrite.js"></script>
 
 </body>
 </html>
