@@ -38,6 +38,7 @@
 			if(userID.value.length < 6){
 				idc.innerText = '아이디는 6글자 이상입니다.';
 				idc.style.color = "red";
+				idcheck = false;
 			}else{
 				
 					idc.innerText = '사용가능한 아이디입니다.';
@@ -72,6 +73,7 @@
 		
 		pwd1.addEventListener("change",function(){
 			pwd2.value = "";
+			pwd2c.innerText="";
 			pwdcheck = false;
 		});
 		
@@ -87,6 +89,7 @@
 					pwd2c.innerText = '패스워드가 불일치합니다.';
 					pwd2c.style.color = "red";
 					pwd2.value="";
+					pwdcheck = false;
 				}
 			}
 			
@@ -97,7 +100,7 @@
 //		폼 태그의 빈칸 여부 체크
 		btn.addEventListener("click",function(e){
 			var flag = true;
-			var spaceArr = [];
+			var blankArr = [];
 //			console.log(spaceArr);
 			
 			for(i=0;i<check.length;i++){
@@ -105,23 +108,29 @@
 //				console.log(i +"length : "+ check[i].value.length);
 				if(check[i].value.length == 0){
 					flag = false;
-					spaceArr.push(check[i]);
+					blankArr.push(check[i]);
 				}
 			}
-			console.log(spaceArr);
-			console.log(spaceArr[0].id);
+//			console.log(spaceArr);
+//			console.log(spaceArr[0].id);
+			if(blankArr.length != 0){
+				var blank_go = document.getElementById(blankArr[0].id);
+			}
 			
-			var blank_go = document.getElementById(spaceArr[0].id);
 			
-//			console.log(flag);
-//			console.log(idcheck);
-//			console.log(pwdcheck);
+//			console.log(blank_go);
+			
+			console.log("flag:"+flag);
+			console.log("idch:"+idcheck);
+			console.log("pwdch:"+pwdcheck);
+			
 			if(flag && idcheck && pwdcheck){
 				alert("회원가입 성공");
 			}else{
 				e.preventDefault();
 				alert("미기입한 항목이 존재합니다.")
 				blank_go.focus();
+				
 			}
 			
 		});

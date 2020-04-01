@@ -6,16 +6,6 @@
 }
 
 
-h3{
-	height: 41px;
-	margin : 30px 0 15px;
-/* 	border: 1px solid black; */
-	
-	background: url("../images/container/movie/bg_h3_line.jpg") repeat-x 0 50%;
-	line-height: 41px;
-	text-align: center;
-}
-
 div{
 	display: block;
 }

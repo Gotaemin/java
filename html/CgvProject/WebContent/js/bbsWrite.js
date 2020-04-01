@@ -30,7 +30,7 @@ textarea_l.addEventListener("keyup", function() {
 
 
 
-btn.addEventListener("click", function() {
+btn.addEventListener("click", function(e) {
 	var flag = true;
 	var blankArr = [];
 	
@@ -44,12 +44,17 @@ btn.addEventListener("click", function() {
 	}
 	console.log(blankArr);
 	
-	var blank_go = document.getElementById(blankArr[0].id);
+	if(blankArr.length != 0){
+		var blank_go = document.getElementById(blankArr[0].id);
+	}
+	
 
 	if(flag) {
 		alert("글 등록");
+		console.log("글등록")
 	} else {
-		//alert("미기입한 항목이 존재합니다.");
+		alert("미기입한 항목이 존재합니다.");
 		blank_go.focus();
+		e.preventDefault();
 	}
 });
