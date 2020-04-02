@@ -10,7 +10,7 @@ var btn = document.getElementById("btn");
 
 var h_all = document.getElementById("h_all");
 
-var flag = false;
+var flag = true;
 
 
 h_all.addEventListener("click", function() {
@@ -69,15 +69,22 @@ for (i = 0; i < ch1.length; i++) {
 for (i = 1; i < h3.length; i++) {
 	h3[i].addEventListener("click", function() {
 //		console.log(ch1[0]);
-//		console.log(this.title);
+		
+		console.log(this.title);
+		console.log(ch1[this.title]);
+		console.log(ch1[this.title].checked);
 		if (ch1[this.title].checked == false) {
 			ch1[this.title].checked = true;
 		}else{
 			ch1[this.title].checked = false;
 		}
 		
+		var all_flag = true;
 		for(i=0;i<ch1.length;i++){
-			all.checked = ch1[i].checked;
+			if(!ch1[i].checked){
+				all_flag = false;
+			}
+			all.checked = all_flag;
 		}
 	});
 }
@@ -87,9 +94,7 @@ for (i = 1; i < h3.length; i++) {
 
 btn.addEventListener("click", function() {
 	for (i = 0; i < terms_ch.length; i++) {
-		if (terms_ch[i].checked) {
-			flag = true;
-		} else {
+		if (!terms_ch[i].checked) {
 			flag = false;
 		}
 	}
